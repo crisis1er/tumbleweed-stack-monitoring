@@ -1,9 +1,19 @@
 # monitoring-tumbleweed-config
 
-> Umbrella repository — Full monitoring stack for openSUSE Tumbleweed
+> ⚠️ **BETA** — Umbrella repository — Full monitoring stack for openSUSE Tumbleweed
 
 This repository is the central reference for the complete monitoring stack running on openSUSE Tumbleweed.
-It links to each dedicated theme repository. Clone only the theme(s) you need.
+It links to each dedicated theme repository via git submodules. Clone only the theme(s) you need.
+
+**Clone a single theme:**
+```bash
+git clone https://github.com/crisis1er/tumbleweed-unbound-monitoring
+```
+
+**Clone the full stack (all available submodules):**
+```bash
+git clone --recurse-submodules https://github.com/crisis1er/monitoring-tumbleweed-config
+```
 
 ---
 
@@ -23,15 +33,15 @@ It links to each dedicated theme repository. Clone only the theme(s) you need.
 
 | Repository | Monitoring theme | Status |
 |---|---|---|
-| [tumbleweed-prometheus-monitoring](https://github.com/crisis1er/tumbleweed-prometheus-monitoring) | Base stack — Prometheus, Grafana, Loki, Alloy | 🔧 In progress |
-| [tumbleweed-unbound-monitoring](https://github.com/crisis1er/tumbleweed-unbound-monitoring) | Unbound DNS resolver | 🔧 In progress |
-| [tumbleweed-squid-monitoring](https://github.com/crisis1er/tumbleweed-squid-monitoring) | Squid proxy | 🔧 In progress |
-| [tumbleweed-caddy-monitoring](https://github.com/crisis1er/tumbleweed-caddy-monitoring) | Caddy web server | 🔧 In progress |
-| [tumbleweed-node-monitoring](https://github.com/crisis1er/tumbleweed-node-monitoring) | System — CPU, RAM, disk, network, SMART | 🔧 In progress |
-| [tumbleweed-network-monitoring](https://github.com/crisis1er/tumbleweed-network-monitoring) | Network probing — blackbox + ping | 🔧 In progress |
-| [tumbleweed-libvirt-monitoring](https://github.com/crisis1er/tumbleweed-libvirt-monitoring) | KVM/libvirt virtual machines | 🔧 In progress |
-| [tumbleweed-snmp-monitoring](https://github.com/crisis1er/tumbleweed-snmp-monitoring) | SNMP network equipment | 🔧 In progress |
-| [tumbleweed-security-monitoring](https://github.com/crisis1er/tumbleweed-security-monitoring) | Security — AIDE file integrity + auditd | 🔧 In progress |
+| [tumbleweed-unbound-monitoring](https://github.com/crisis1er/tumbleweed-unbound-monitoring) | Unbound DNS resolver | ✅ v1.0 — submodule |
+| [tumbleweed-prometheus-monitoring](https://github.com/crisis1er/tumbleweed-prometheus-monitoring) | Base stack — Prometheus, Grafana, Loki, Alloy | 🔧 Scaffold only |
+| [tumbleweed-squid-monitoring](https://github.com/crisis1er/tumbleweed-squid-monitoring) | Squid proxy | 🔧 Scaffold only |
+| [tumbleweed-caddy-monitoring](https://github.com/crisis1er/tumbleweed-caddy-monitoring) | Caddy web server | 🔧 Scaffold only |
+| [tumbleweed-node-monitoring](https://github.com/crisis1er/tumbleweed-node-monitoring) | System — CPU, RAM, disk, network, SMART | 🔧 Scaffold only |
+| [tumbleweed-network-monitoring](https://github.com/crisis1er/tumbleweed-network-monitoring) | Network probing — blackbox + ping | 🔧 Scaffold only |
+| [tumbleweed-libvirt-monitoring](https://github.com/crisis1er/tumbleweed-libvirt-monitoring) | KVM/libvirt virtual machines | 🔧 Scaffold only |
+| [tumbleweed-snmp-monitoring](https://github.com/crisis1er/tumbleweed-snmp-monitoring) | SNMP network equipment | 🔧 Scaffold only |
+| [tumbleweed-security-monitoring](https://github.com/crisis1er/tumbleweed-security-monitoring) | Security — AIDE file integrity + auditd | 🔧 Scaffold only |
 
 ---
 

@@ -1,0 +1,3 @@
+[submodule "tumbleweed-unbound-monitoring"]
+	path = tumbleweed-unbound-monitoring
+	url = https://github.com/crisis1er/tumbleweed-unbound-monitoring
