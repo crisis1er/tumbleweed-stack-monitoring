@@ -1,4 +1,4 @@
-# monitoring-tumbleweed-config
+# tumbleweed-stack-monitoring
 
 > ⚠️ **BETA** — Umbrella repository — Full monitoring stack for openSUSE Tumbleweed
 
@@ -12,7 +12,7 @@ git clone https://github.com/crisis1er/tumbleweed-unbound-monitoring
 
 **Clone the full stack (all available submodules):**
 ```bash
-git clone --recurse-submodules https://github.com/crisis1er/monitoring-tumbleweed-config
+git clone --recurse-submodules https://github.com/crisis1er/tumbleweed-stack-monitoring
 ```
 
 ---
